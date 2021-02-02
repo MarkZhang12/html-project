@@ -127,9 +127,10 @@ a.read_more {
 	margin-right:10px;
 }
 p {
+	font-family: "Times New Roman", Arial;
 	padding:15px 0;
 	line-height:1.6em;
-	font-size:1.1em;
+	font-size:1.2em;
 	color:#666;
 }
 p.frontpage_text {
