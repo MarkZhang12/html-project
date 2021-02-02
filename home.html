@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js" ></script>
+<script type="text/javascript">
+$(function () {
+    $('#slideshow').cycle({
+        timeout: 6000,
+        fx: 'fade',
+        pager: '#pager',
+        pause: 0,
+        pauseOnPagerHover: 0
+    });
+});
+</script>
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="container">
+  <div id="header">
+    <div id="logo"><a href="#"><img src="images/logo.png" width="220" height="90" alt="" /></a></div>
+  </div>
+  <div id="h_navcontainer">
+    <ul>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="me.html">Me</a></li>
+      <li><a href="home.html">Home</a></li>
+    </ul>
+  </div>
+  <div id="screen">
+	<!--Use jQuery module to cycle through all pictures-->
+    <div id="slideshow">
+      <div class="slide-text"> <img src="images/slide1.jpg" alt="Hockey Image" class="slidehalf"  />
+        <h1>2017 Korean Hockey Tournament</h1>
+        <p>In the winter of 2017, I participated in the Korean Hockey Tournament as a member of the Hong Kong Typhoon Selects Hockey team. We won the tournament, and I tallied 5 goals and 4 assists adding up to a total of 9 points in the span of 5 games. </p>
+      </div>
+      <div class="slide-text"> <img src="images/slide2.jpg" alt="Favorite Song" class="slidehalf"  />
+        <h1>See You Again</h1>
+        <p>One of my favorite songs is “See You Again” by Wiz Khalifa. (ft. Charlie Puth). I like this song because it has a catchy rhythm and the overall style of the song just suites my taste in music. The track was commissioned for the soundtrack of the 2015 action film "Fast &amp; Furious 7", as a tribute to the actor Paul Walker. He died in a single-vehicle accident on November 30, 2013, in Valencia, California.</p>
+      </div>
+      <div class="slide-text"> <img src="images/slide3.jpg" alt="NBA 2K20 Myteam" class="slidehalf"  />
+        <h1>NBA 2K20 MyTEAM</h1>
+        <p>My favorite game mode on NBA 2K is called MyTEAM. It allows users to build their dream team using MT (MyTEAM currency) to buy their ideal players. My current lineup has involved: Steph Curry (GOAT), Kevin Durant (GOAT), Giannis Antetokounmpo (GOAT), Larry Bird (GOAT) and Kareem Abdul-Jabbar (GOAT). GOAT means that the player has 99 in every single statistic. This lineup costs 5.4 million MTs in total!!!</p>
+      </div>
+    </div>
+    <div id="box-nav-slider">
+      <div id="slideshow-navigation">
+        <div id="pager"></div>
+      </div>
+    </div>
+  </div>
+  <div id="left">
+    <h3 class="frontpage_heading">Hockey</h3>
+    <p class="frontpage_text">Ice Hockey has been my favorite sport ever since I was 7. It is a sport that brings excitement and variety into my life. During my hockey career, I have met new people and made a lot of friends. Thanks to it.</p>
+    <a class="read_more" href="me.html#page1">Learn more &raquo;</a>
+  </div>
+  <div id="right">
+    <h3 class="frontpage_heading">Music</h3>
+    <p class="frontpage_text">When studying or preparing for a hockey game, I prefer to listen to music. I basically enjoy all kinds of music except Hard Metal Rock, but my favorite kinds of music are the ones with a catchy rhythm.</p>
+    <a class="read_more" href="me.html#page3">Learn more &raquo;</a>
+  </div>
+  <div id="middle">
+    <h3 class="frontpage_heading">Game</h3>
+    <p class="frontpage_text">As a teenager, playing games is one of the most pleasing and enjoying activities I can do. I ussually play games on PS4 instead of PC. Some of the games I love are NBA 2K20, NHL 20, GTA V.</p>
+    <a class="read_more" href="me.html#page2">Learn more &raquo;</a>
+  </div>
+</div>
+<div id="footer">
+  <p>&copy; 2021 <a href="mailto:mark.zhang.canada@gmail.com">Mark Zhang</a> &bull; <a href="https://schoolweb.tdsb.on.ca/victoriapark/">Victoria Park Collegiate Institutes</a> &bull; <a href="reference.html">Reference</a></p>
+</div>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
